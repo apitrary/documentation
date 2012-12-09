@@ -110,7 +110,7 @@ Deployed APIs have a new *Console* button to reach the REST Console. More inform
 
 - Undeploying an API is currently not available *(coming in the near future)*
 
-**Congratulations! You have your first running API!**
+**Congratulations! You have your first running API!** You can now continue with your application and start using your API.
 
 ## Further readings
 
