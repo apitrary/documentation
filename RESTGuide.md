@@ -1,9 +1,51 @@
 # REST Guide
 
-apitrary uses RESTful APIs as backend for your applications. 
+apitrary uses RESTful APIs as backend for your applications. This guide will give you an detailled introduction to the API endpoints you will need to contact in order to store and retrieve information.
 
-## API Endpoints
-Give an overview (table) of all endpoints automatically defined in the base set of apitrary's APIs.
+## RESTful API as your backend
+
+apitrary will generate backends for your applications in very easy steps. A backend consists of a generated REST API with a set of REST endpoints. All endpoints use [https://api.apitrary.com/](https://api.apitrary.com/ "API endpoint URL") as base URL.
+
+Following will give you a brief overview of the provided endpoints:
+
+<table>
+	<tr>
+		<th>Endpoint</th>
+		<th>Verbs</th>
+		<th>Comment</th>
+	</tr>
+	<tr>
+		<td><a href="#get_single_object" alt="Single Object GET">/:entity_name/:object_id</a></td>
+		<td>GET</td>
+		<td>Retrieve single object</td>
+	</tr>
+	<tr>
+		<td><a href="#post_single_object" alt="Single Object POST">/:entity_name</a></td>
+		<td>POST</td>
+		<td>Store a single object</td>
+	</tr>
+	<tr>
+		<td><a href="#update_single_object" alt="Single Object PUT">/:entity_name/:object_id</a></td>
+		<td>PUT</td>
+		<td>Update single object</td>
+	</tr>
+	<tr>
+		<td><a href="#delete_single_object" alt="Single Object DELETE">/:entity_name/:object_id</a></td>
+		<td>DELETE</td>
+		<td>Delete single object</td>
+	</tr>
+	<tr>
+		<td><a href="#get_single_object" alt="Single Object GET">/:entity_name/:object_id</a></td>
+		<td>GET</td>
+		<td>Retrieve single object</td>
+	</tr>
+	<tr>
+		<td><a href="#search_for_objects" alt="Search objects">/:entity_name?q=:search_expression</a></td>
+		<td>GET</td>
+		<td>Search for objects</td>
+	</tr>
+</table>
+
 
 ## HTTP Verbs
 

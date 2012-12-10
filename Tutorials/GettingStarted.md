@@ -2,55 +2,13 @@
 
 This is the getting started guide which will lead you through easy steps in order to successfully deploy your apitrary backend.
 
-For this guide you should already have successfully signed up for apitrary. If not, please make sure to [sign up now](http://launchpad.apitrary.com/ "Sign up for apitrary") in order to continue with the guide.
+For this guide you should already have successfully signed up for apitrary. If not, please make sure to [sign up now](http://launchpad.apitrary.com/ "Sign up for apitrary") in order to continue with the guide. You can quickly sign up on [Launchpad](http://launchpad.apitrary.com/ "Launchpad").
 
-You can quickly sign up on [Launchpad](http://launchpad.apitrary.com/ "Launchpad").
+## APIs and Entities
 
-## RESTful API as your backend
+apitrary uses RESTful APIs which can easily be created in [Launchpad](http://launchpad.apitrary.com/ "Launchpad"). Each API then needs to be configured by creating *entities* which will provide your endpoints. Once those endpoints have been created you can instantly start working with your API.
 
-apitrary will generate backends for your applications in very easy steps. A backend  consists of a generated REST API with a set of REST endpoints. All endpoints use [https://api.apitrary.com/](https://api.apitrary.com/ "API endpoint URL") as base URL.
-
-Following will give you a brief overview of the provided endpoints:
-
-<table>
-	<tr>
-		<th>Endpoint</th>
-		<th>Verbs</th>
-		<th>Comment</th>
-	</tr>
-	<tr>
-		<td><a href="#get_single_object" alt="Single Object GET">/:entity_name/:object_id</a></td>
-		<td>GET</td>
-		<td>Retrieve single object</td>
-	</tr>
-	<tr>
-		<td><a href="#post_single_object" alt="Single Object POST">/:entity_name</a></td>
-		<td>POST</td>
-		<td>Store a single object</td>
-	</tr>
-	<tr>
-		<td><a href="#update_single_object" alt="Single Object PUT">/:entity_name/:object_id</a></td>
-		<td>PUT</td>
-		<td>Update single object</td>
-	</tr>
-	<tr>
-		<td><a href="#delete_single_object" alt="Single Object DELETE">/:entity_name/:object_id</a></td>
-		<td>DELETE</td>
-		<td>Delete single object</td>
-	</tr>
-	<tr>
-		<td><a href="#get_single_object" alt="Single Object GET">/:entity_name/:object_id</a></td>
-		<td>GET</td>
-		<td>Retrieve single object</td>
-	</tr>
-	<tr>
-		<td><a href="#search_for_objects" alt="Search objects">/:entity_name?q=:search_expression</a></td>
-		<td>GET</td>
-		<td>Search for objects</td>
-	</tr>
-</table>
-
-For more information on the relevant endpoints, read the [REST Guide](../RESTGuide.html "apitrary REST Guide").
+We will now walk you through the process of creating an API with an entity.
 
 ## Creating APIs
 
@@ -110,11 +68,9 @@ Deployed APIs have a new *Console* button to reach the REST Console. More inform
 
 - Undeploying an API is currently not available *(coming in the near future)*
 
-**Congratulations! You have your first running API!** You can now continue with your application and start using your API.
+**Congratulations! You have your first running API!**
 
-## Further readings
-
-There is more to read:
+You can now continue with your application and start using your API. More information on how talk to your backend can be found in following guides:
 
 - [REST Guide](../RESTGuide.html)
 - [Search Guide](../SearchGuide.html)
