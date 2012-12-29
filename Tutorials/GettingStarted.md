@@ -14,15 +14,15 @@ We will now walk you through the process of creating an API with an entity.
 
 Once you have [signed up](https://launchpad.apitrary.com "Launchpad"), simply login into [Launchpad](https://launchpad.apitrary.com "Launchpad"). On your first login, you will not have an API, yet. Click the *Create API* button to start creating your first API.
 
-![getting_started-create_api_button](../images/getting_started-create_api_button.png "Create API")
+![getting_started-create_api_button](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/001/original/getting_started-create_api_button.png "Create API")
 
 You should now see the API Create box:
 
-![API Create box](../images/getting_started-api_create_input_box.png "API Create box")
+![API Create box](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/002/original/getting_started-api_create_input_box.png "API Create box")
 
 Fill in the name of your API and, optionally, a short description. Finish by clicking *Create API*. You should now see a new API:
 
-![New API](../images/getting_started-api_created.png "API created")
+![New API](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/003/original/getting_started-api_created.png "API created")
 
 You have successfully created your first API. Now continue to edit your API by adding entities.
 
@@ -30,13 +30,13 @@ You have successfully created your first API. Now continue to edit your API by a
 
 Adding entities to your API is just as easy. Click the *Edit Entities* which will bring you to **Kolay**, our API editor.
 
-![New Entity](../images/getting_started-kolay-add_entity.png "New Entity")
+![New Entity](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/004/original/getting_started-kolay-add_entity.png "New Entity")
 
 Click *New Entity* to create your first entity and add a descriptive name.
 
 **Please note:** Entity names should be **lower-case**!
 
-![Enter Entity name](../images/getting_started-kolay-new_entity_box.png "Enter entity name")
+![Enter Entity name](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/005/original/getting_started-kolay-new_entity_box.png "Enter entity name")
 
 Add more entities as you need!
 
@@ -54,11 +54,11 @@ In case your plan does not provide the number of entities you require, add more 
 
 Once you are finished with adding entities, click the *Deploy* button:
 
-![Deploy your API](../images/getting_started-kolay-deploy.png "Deploy your API")
+![Deploy your API](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/006/original/getting_started-kolay-deploy.png "Deploy your API")
 
 You can now return back to *Launchpad* and should see the current state of your API:
 
-![Deployed API](../images/getting_started-api_is_deployed.png "API is deployed")
+![Deployed API](https://s3-eu-west-1.amazonaws.com/apitrary-www-production/assets/attachments/000/000/007/original/getting_started-api_is_deployed.png "API is deployed")
 
 Your API will now be in state *Deployed*.
 
