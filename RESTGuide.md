@@ -2,9 +2,13 @@
 
 apitrary uses RESTful APIs as backend for your applications. This guide will give you an detailled introduction to the API endpoints you will need to contact in order to store and retrieve information.
 
-## RESTful API as your backend
+## Base URL
 
-apitrary will generate backends for your applications in very easy steps. A backend consists of a generated REST API with a set of REST endpoints. All endpoints use [https://api.apitrary.com/](https://api.apitrary.com/ "API endpoint URL") as base URL.
+apitrary will generate backends for your applications in very easy steps. A backend consists of a generated REST API with a set of REST endpoints. All endpoints will use following base URL:
+
+[https://_YOUR_API_ID_.api.apitrary.com/](https://api.apitrary.com/ "API endpoint URL")
+
+## Endpoints
 
 Following will give you a brief overview of the provided endpoints:
 
